@@ -1,0 +1,63 @@
+╔══════════════════════════════════════════════════════════════╗
+║                ⭐ FLUSSO DI LAVORO GIT IDEALE ⭐               ║
+╠══════════════════════════════════════════════════════════════╣
+
+1️⃣   AGGIORNA IL PROGETTO
+     ───────────────────────────────────────
+     git fetch
+     git pull
+     ✔ Parti sempre dall’ultima versione.
+
+2️⃣   CREA UN NUOVO BRANCH
+     ───────────────────────────────────────
+     git switch -c nome-branch
+     ✔ Non lavorare mai direttamente su "main".
+
+3️⃣   MODIFICA I FILE E FAI COMMIT PICCOLI
+     ───────────────────────────────────────
+     git add .
+     git commit -m "Spiega la modifica"
+     ✔ 1 commit = 1 cambiamento logico.
+
+4️⃣   MANTIENITI ALLINEATO CON MAIN
+     ───────────────────────────────────────
+     git fetch
+     git merge origin/main
+     ✔ Eviti conflitti grandi alla fine.
+
+5️⃣   TESTA IL CODICE
+     ───────────────────────────────────────
+     ✔ Assicurati che tutto funzioni prima del push.
+
+6️⃣   PUBBLICA IL TUO BRANCH
+     ───────────────────────────────────────
+     git push -u origin nome-branch
+     ✔ Invia il lavoro al server (GitHub/GitLab).
+
+7️⃣   APRI UNA PULL REQUEST (PR)
+     ───────────────────────────────────────
+     ✔ Spiega cosa hai fatto, perché, e aggiungi prove.
+
+8️⃣   REVISIONE DEL TEAM
+     ───────────────────────────────────────
+     • Se chiedono modifiche → aggiorna:
+       git add .
+       git commit -m "Review fix"
+       git push
+
+9️⃣   RISOLVI EVENTUALI CONFLITTI
+     ───────────────────────────────────────
+     git pull
+     ✔ Sistema i file in conflitto → add → commit.
+
+🔟   MERGE SU MAIN
+     ───────────────────────────────────────
+     ✔ Usa il pulsante "Merge" dalla PR.
+
+1️⃣1️⃣  ELIMINA IL BRANCH
+      ───────────────────────────────────────
+      git branch -d nome-branch
+      git push origin --delete nome-branch
+      ✔ Repository sempre pulito.
+
+╚══════════════════════════════════════════════════════════════╝
