@@ -9,4 +9,3 @@ Q= a*square(b)
 print(Q) 
 T=Q/b
 print(T)
-M
