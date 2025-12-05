@@ -3,3 +3,4 @@ b=16
 sum=a+b
 print("The sum of",a,"and",b,"is",sum)
 print("Moltiplicazion",a*b)
+print("Sottrazione",a-b)
